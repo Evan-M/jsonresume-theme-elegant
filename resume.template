@@ -58,7 +58,7 @@
       }
 
       .social-link {
-        margin-left: 5px;
+        margin-left: 7px;
       }
 
       .social-link:first-child {
@@ -212,7 +212,9 @@
 
             <span class="social-links-wrapper">
               {{#basics.profiles}}
-              <a href="{{url}}" target="_blank"><span class="social-link fa fa-{{_icon}}"></span>&nbsp;{{network}}</a> &nbsp;
+              <a href="{{url}}" alt="{{network}}" target="_blank" class="social-link">
+                <span class="fa fa-{{_icon}}"></span>&nbsp;{{username}}
+              </a> &nbsp;
               {{/basics.profiles}}
             </span>
           </div>
