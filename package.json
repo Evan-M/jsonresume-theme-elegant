@@ -18,9 +18,9 @@
   "author": "Evan Marell <evan.marell@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leonth/jsonresume-theme-elegant/issues"
+    "url": "https://github.com/evan-m/jsonresume-theme-elegant/issues"
   },
-  "homepage": "https://github.com/leonth/jsonresume-theme-elegant",
+  "homepage": "https://github.com/evan-m/jsonresume-theme-elegant",
   "dependencies": {
     "moment": "^2.8.4",
     "mustache": "^0.8.2",
